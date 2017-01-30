@@ -43,7 +43,6 @@ void main()
     srand(time(&t));
     a = rand()%5;
     b = rand()%5;
-    printf("%d %d",a,b);
     while(turn>0)
     {
         scanf("%d %d",&g1,&g2);
